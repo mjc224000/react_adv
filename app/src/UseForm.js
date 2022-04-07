@@ -10,5 +10,6 @@ export function UseForm() {
         <Input/>
     </Item>
     return <Form form={form}>
-        <MyTablePage slot1={slot1}/> </Form>
+        <MyTablePage slot1={slot1}/>
+    </Form>
 }

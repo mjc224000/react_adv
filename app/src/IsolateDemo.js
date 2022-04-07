@@ -21,8 +21,8 @@ export function MyTablePage({slot1 = null, slot2 = null}) {
     ]
 
     return <div style={{background:`rgb(125,${Math.random()*255},${Math.random()*255})`}}>
-        <div style={{display:"flex"}}>slot1: {slot1}</div>
-        <div style={{display:"flex"}}>slot2: {slot2} </div>
+        <div style={{display:"flex"}}>  {slot1}</div>
+        <div style={{display:"flex"}}> {slot2} </div>
         <Table components={{
             body: {
 
